@@ -96,7 +96,6 @@ def exportar_texto():
     else:
         st.warning("Não há texto transcrito para exportar.")
 
-import streamlit.components.v1 as components
 
 components.iframe("https://viewer-production-e71b.up.railway.app/gera-o-de-leads-com-ia-mbexfgd", height=600)
 
