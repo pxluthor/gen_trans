@@ -3,6 +3,7 @@ import streamlit as st
 import speech_recognition as sr
 import google.generativeai as genai
 from pathlib import Path
+import streamlit.components.v1 as components
 
 
 
@@ -94,6 +95,10 @@ def exportar_texto():
             )
     else:
         st.warning("Não há texto transcrito para exportar.")
+
+import streamlit.components.v1 as components
+
+components.iframe("https://viewer-production-e71b.up.railway.app/gera-o-de-leads-com-ia-mbexfgd", height=600)
 
 if __name__ == "__main__":
     main()
