@@ -6,7 +6,7 @@ from pathlib import Path
 import streamlit.components.v1 as components
 
 
-
+components.iframe("https://viewer-production-e71b.up.railway.app/gera-o-de-leads-com-ia-mbexfgd", width: 100%, height=600)
 config = toml.load("secrets.toml")
 google_api_key = config["api_keys"]["google"]
 
@@ -97,7 +97,7 @@ def exportar_texto():
         st.warning("Não há texto transcrito para exportar.")
 
 
-components.iframe("https://viewer-production-e71b.up.railway.app/gera-o-de-leads-com-ia-mbexfgd", height=600)
+
 
 if __name__ == "__main__":
     main()
