@@ -6,7 +6,7 @@ from pathlib import Path
 import streamlit.components.v1 as components
 
 
-components.iframe("https://viewer-production-e71b.up.railway.app/gera-o-de-leads-com-ia-mbexfgd", width: 100%, height=600)
+components.iframe("https://viewer-production-e71b.up.railway.app/b-o-t-lest-eaux-ai-dijigpa", width: 100%, height=600) 
 config = toml.load("secrets.toml")
 google_api_key = config["api_keys"]["google"]
 
